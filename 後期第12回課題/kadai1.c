@@ -18,7 +18,7 @@ int main(void)
         }
         bingo[n] = 1;
 
-        printf("%d回目 : %d\n", count++, n);
+        printf("%d回目 : %d\n", count++, n + 1);
 
         printf("ビンゴ？ (0:Yes, 1:No) : ");
         scanf("%d", &retry);
